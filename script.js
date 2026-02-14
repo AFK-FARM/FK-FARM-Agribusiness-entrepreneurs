@@ -1,7 +1,7 @@
 // 1. INITIALIZE EMAILJS
 (function() {
   emailjs.init("r05QOyXoWaZqP_1hd"); 
-})();
+})(); 
 
 // 2. WAIT FOR DOM TO LOAD
 document.addEventListener('DOMContentLoaded', function() {
@@ -353,4 +353,5 @@ window.debugAFKForm = function() {
   console.log('📋 Final steps:');
   console.log('1. Replace YOUR_OWNER_TEMPLATE_ID with your actual template ID');
   console.log('2. Test the form - owner will receive at afkmd24@gmail.com');
+
 };
